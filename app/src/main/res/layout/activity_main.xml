@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/et_first" />
 
     <Button
-        android:id="@+id/btn_calc"
+        android:id="@+id/btn_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="105dp"
@@ -37,4 +37,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_second" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="463dp" />
 </android.support.constraint.ConstraintLayout>
